@@ -4,8 +4,7 @@ const fileupload = require('express-fileupload')
 const app = express();
 
 const allowedOrigins = [
-  'http://192.168.0.17:3001',
-  'http://localhost:3001'
+  'http://localhost:3000'
 ]
 app.use(express.urlencoded({ extended: true }))
 app.use(cors({
